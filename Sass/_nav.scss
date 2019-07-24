@@ -1,0 +1,54 @@
+#nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 60px;
+	z-index: 999;
+	opacity: 0;
+	transition: all 1s;
+	ul.menu {
+		display: none;
+		margin-left: 6%;
+		a {
+			position: relative;
+			font-size: 22px;
+			color: #ececec;
+			font-family: 'Raleway', sans-serif;
+			text-decoration: none;
+			margin: 30px;
+			transition: all .5s;
+			&::before {
+				content: " ";
+				width: 0px;
+				position: absolute;
+				bottom: -5px;
+				left: 0;
+				border-top: 3px solid #529fa9;
+				transition: width .5s;
+			}
+			&:hover::before {
+				width: 100%;
+			}
+		}
+	}
+	#menuIcon {
+		display: block;
+		position: absolute;
+		top: 13px;
+		left: 4%;
+		width: 60px;
+		height: 40px;
+		background-color: transparent;
+		cursor: pointer;
+		span {
+			display: block;
+			width: 45px;
+			height: 5px;
+			background-color: #ececec;
+			margin: 20% auto;
+			transition: all .5s;
+		}
+	}
+}
