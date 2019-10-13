@@ -225,18 +225,13 @@
     top: 2%;
     transform: translateX(-55%);
   }
-  #work article.guessGame,
+  #work article.budget,
 #work .e-shop {
     flex-direction: column-reverse;
   }
   #work article.Bootstrap,
 #work .olav {
     flex-direction: column;
-    margin-bottom: 5%;
-  }
-  #work article.Bootstrap span,
-#work .olav span {
-    margin-top: 15%;
   }
   #work article p {
     max-width: 90%;
@@ -251,12 +246,28 @@
   }
   #work article span {
     font-size: 25px;
-    margin-top: 10%;
+  }
+  #work .restOfWorks {
+    padding: 0 5%;
+  }
+  #work .restOfWorks h1 {
+    position: unset;
+    text-align: center;
+    transform: translateX(0);
+    font-size: 25px;
+    margin: auto auto 5%;
+  }
+  #work .restOfWorks figure {
+    width: 100%;
+    margin: 5% auto;
+  }
+  #work .restOfWorks figure img {
+    height: 30vh;
   }
 
   #work article .figure {
     margin: 5% auto;
-    width: 60%;
+    width: 90%;
     height: 30vh;
   }
 }
@@ -713,10 +724,9 @@ div.bg2 {
   .about {
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 5%;
   }
   .about figure {
-    width: 70%;
+    width: 80%;
     margin: 0;
   }
   .about main {
@@ -800,12 +810,12 @@ div.bg2 {
   .planning main article#code,
 .planning main article#project,
 .planning main article#react {
-    margin-bottom: 32%;
+    margin-bottom: 30%;
   }
   .planning main article#square,
 .planning main article#fileCode,
 .planning main article#nodeJs {
-    margin-top: 32%;
+    margin-top: 30%;
   }
 }
 

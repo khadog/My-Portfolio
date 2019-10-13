@@ -170,17 +170,13 @@
 			top: 2%;
 			transform: translateX(-55%);
 		}
-		article.guessGame,
+		article.budget,
 		.e-shop {
 			flex-direction: column-reverse;
 		}
 		article.Bootstrap,
 		.olav {
 			flex-direction: column;
-			margin-bottom: 5%;
-			span {
-				margin-top: 15%;
-			}
 		}
 		article {
 			p {
@@ -196,13 +192,29 @@
 			}
 			span {
 				font-size: 25px;
-				margin-top: 10%;
+			}
+		}
+		.restOfWorks {
+			padding: 0 5%;
+			h1 {
+				position: unset;
+				text-align: center;
+				transform: translateX(0);
+				font-size: 25px;
+				margin: auto auto 5%;
+			}
+			figure {
+				width: 100%;
+				margin: 5% auto;
+				img {
+					height: 30vh;
+				}
 			}
 		}
 	}
 	%figureStyle {
 		margin: 5% auto;
-		width: 60%;
+		width: 90%;
 		height: 30vh;
 	}
 }

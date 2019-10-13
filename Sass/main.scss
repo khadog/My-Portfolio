@@ -339,9 +339,8 @@ body {
 	.about {
 		flex-direction: column-reverse;
 		justify-content: center;
-		margin-top: 5%;
 		figure {
-			width: 70%;
+			width: 80%;
 			margin: 0;
 		}
 		main {
@@ -430,12 +429,12 @@ body {
 			article#code,
 			article#project,
 			article#react {
-				margin-bottom: 32%;
+				margin-bottom: 30%;
 			}
 			article#square,
 			article#fileCode,
 			article#nodeJs {
-				margin-top: 32%;
+				margin-top: 30%;
 			}
 		}
 	}
